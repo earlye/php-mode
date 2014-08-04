@@ -268,7 +268,7 @@ have any tags inside a PHP string, it will be fooled."
   :type '(choice (const :tag "Warg" t) (const "Don't warn" nil))
   :group 'php)
 
-(defcustom php-mode-coding-style 'pear
+(defcustom php-mode-coding-style 'drupal
   "Select default coding style to use with php-mode.
 This variable can take one of the following symbol values:
 
